@@ -42,8 +42,8 @@
   padding-inline-end: 0.75rem; /* Logical Property for padding-right */
   width: 100px;
 }
-.bet {
-  margin-left: 10%;
+.betbutton {
+  margin-left: 90px;
   width: 25%;
   position: relative;
   top: -60px;
@@ -60,4 +60,60 @@
   text-align: auto;
   width: 40px;
   font-weight: bolder;
+}
+.CashIn {
+  position: relative;
+  margin-left: 115px;
+  top: -30px;
+  font-size: 0.55rem;
+  text-align: auto;
+  width: 50px;
+  font-weight: bolder;
+}
+
+.credit,
+.bet,
+.win {
+  position: relative;
+  margin-left: 350px;
+  top: -400px;
+}
+
+.displayForWin {
+  font-size: 2rem;
+  text-align: center; /* This is the Logical Property for text-align: right; and has very good browser support. */
+  background-color: hsl(202, 11%, 29%); /* background color */
+  color: hsl(255, 100%, 100%); /* text color */
+  padding-block-start: 0.25rem; /* Logical Property for padding-top */
+  padding-block-end: 0.25rem; /* Logical Property for padding-bottom */
+  padding-inline-end: 0.75rem; /* Logical Property for padding-right */
+  width: 100px;
+}
+.win {
+  top: -450px;
+}
+.spin {
+  position: relative;
+  margin-left: 350px;
+  top: -70px;
+}
+.Winning_Message {
+  position: relative;
+  font-size: 0.75rem;
+  font-weight: bolder;
+  top: -350px;
+}
+.Winning_line {
+  position: relative;
+  font-size: 0.75rem;
+  font-weight: bold;
+  top: -350px;
+}
+
+.rules {
+  position: relative;
+  font-size: 0.75rem;
+  font-weight: bolder;
+  top: -45px;
+  margin-left: 350px;
 }
