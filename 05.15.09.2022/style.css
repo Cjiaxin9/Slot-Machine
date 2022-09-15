@@ -1,0 +1,192 @@
+body {
+  margin-left: 200px;
+  background-color: black;
+  color: cornflowerblue;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px 10px;
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9 {
+  border: 1px solid rgba(0, 0, 0, 0.85);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  background-color: white;
+}
+
+.displayForTotalCredit {
+  font-size: 2rem;
+  text-align: center; /* This is the Logical Property for text-align: right; and has very good browser support. */
+  background-color: hsl(202, 11%, 29%); /* background color */
+  color: hsl(255, 100%, 100%); /* text color */
+  padding-block-start: 0.25rem; /* Logical Property for padding-top */
+  padding-block-end: 0.25rem; /* Logical Property for padding-bottom */
+  padding-inline-end: 0.75rem; /* Logical Property for padding-right */
+  width: 100px;
+}
+
+.displayForBet {
+  font-size: 2rem;
+  text-align: center;
+  background-color: hsl(202, 11%, 29%);
+  color: hsl(255, 100%, 100%);
+  padding-block-start: 0.25rem; /* Logical Property for padding-top */
+  padding-block-end: 0.25rem; /* Logical Property for padding-bottom */
+  padding-inline-end: 0.75rem; /* Logical Property for padding-right */
+  width: 100px;
+}
+.betbutton {
+  margin-left: 90px;
+  width: 25%;
+  position: relative;
+  top: -60px;
+  padding: 25px;
+}
+.bet-up {
+  font-size: 0.55rem;
+  text-align: auto;
+  width: 40px;
+  font-weight: bolder;
+}
+.bet-down {
+  font-size: 0.55rem;
+  text-align: auto;
+  width: 40px;
+  font-weight: bolder;
+}
+.CashIn {
+  position: relative;
+  margin-left: 115px;
+  top: -30px;
+  font-size: 0.55rem;
+  text-align: auto;
+  width: 50px;
+  font-weight: bolder;
+}
+.CashOut {
+  position: relative;
+  margin-left: 0px;
+  top: -30px;
+  font-size: 0.55rem;
+  text-align: auto;
+  width: 60px;
+  font-weight: bolder;
+}
+.credit,
+.bet,
+.win {
+  position: relative;
+  margin-left: 500px;
+  top: -660px;
+  color: chartreuse;
+}
+
+.displayForWin {
+  font-size: 2rem;
+  text-align: center; /* This is the Logical Property for text-align: right; and has very good browser support. */
+  background-color: hsl(202, 11%, 29%); /* background color */
+  color: hsl(255, 100%, 100%); /* text color */
+  padding-block-start: 0.25rem; /* Logical Property for padding-top */
+  padding-block-end: 0.25rem; /* Logical Property for padding-bottom */
+  padding-inline-end: 0.75rem; /* Logical Property for padding-right */
+  width: 100px;
+}
+.win {
+  top: -725px;
+}
+.spin {
+  position: relative;
+  margin-left: 500px;
+  top: -120px;
+}
+.Winning_Message {
+  position: relative;
+  font-size: 0.75rem;
+  font-weight: bolder;
+  top: -580px;
+  color: rgb(0, 195, 255);
+}
+.Winning_line {
+  position: relative;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: rgb(255, 0, 187);
+}
+
+.rules {
+  position: relative;
+  font-size: 0.6rem;
+  font-weight: bolder;
+  top: -45px;
+  margin-left: 350px;
+}
+
+/* Rounded */
+.slider {
+  border-radius: 34px;
+}
+
+.slider:before {
+  border-radius: 50%;
+}
+
+.label {
+  color: chartreuse;
+  position: relative;
+  font-size: 0.75rem;
+  font-weight: bolder;
+  top: 5px;
+  margin-left: 0px;
+}
+
+.bonusBox {
+  border: 1px solid rgba(0, 0, 0, 0.85);
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  background-color: white;
+  display: grid;
+  gap: 10px 10px;
+  height: 30px;
+  width: 30px;
+}
+
+.displayForBonusWin {
+  font-size: 2rem;
+  text-align: center;
+  background-color: hsl(202, 11%, 29%);
+  color: hsl(255, 100%, 100%);
+  padding-block-start: 0.25rem; /* Logical Property for padding-top */
+  padding-block-end: 0.25rem; /* Logical Property for padding-bottom */
+  padding-inline-end: 0.75rem; /* Logical Property for padding-right */
+  width: 100px;
+}
+
+.bonusGame {
+  position: relative;
+  margin-left: 350px;
+  top: -415px;
+  color: rgb(255, 34, 0);
+}
+.bonusSpin {
+  font-size: 0.75rem;
+  text-align: auto;
+  width: 100px;
+  height: 25px;
+  font-weight: bolder;
+  top: 30px;
+}

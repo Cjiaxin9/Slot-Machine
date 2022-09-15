@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slot Machine</title>
+
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Slot Machine</h1>
+    <button class="rules">Rules</button>
+    <div id="Slot Machine"></div>
+    <div class="box">
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+      <div class="box4"></div>
+      <div class="box5"></div>
+      <div class="box6"></div>
+      <div class="box7"></div>
+      <div class="box8"></div>
+      <div class="box9"></div>
+    </div>
+
+    <div class="label">
+      Choose The Number Of Line To Bet
+      <p></p>
+      <input type="checkbox" class="switch1" />
+      <span class="slider">Line 1</span>
+      <input type="checkbox" class="switch2" />
+      <span class="slider">Line 2</span>
+      <input type="checkbox" class="switch3" />
+      <span class="slider">Line 3</span>
+      <input type="checkbox" class="switch4" />
+      <span class="slider">Line 4</span>
+      <input type="checkbox" class="switch5" />
+      <span class="slider">Line 5</span>
+    </div>
+
+    <div class="spin">
+      Press to spin
+      <p></p>
+      <button class="button">Spin</button>
+    </div>
+
+    <div class="bonusGame">
+      Nos of Bonus Game
+      <div class="bonusBox"></div>
+      <p></p>
+      <div class="bonusWin">Bonus Win $</div>
+      <p></p>
+      <div class="displayForBonusWin">0</div>
+      <p></p>
+      <button class="bonusSpin">Bonus Spin</button>
+    </div>
+
+    <p></p>
+    <div class="credit">
+      Credit $
+      <div class="displayForTotalCredit">0</div>
+      <button class="CashIn">Cash In</button>
+      <button class="CashOut">Cash Out</button>
+    </div>
+
+    <p></p>
+    <div class="bet">
+      Bet $
+      <div class="displayForBet">0</div>
+      <div class="betbutton">
+        <button class="bet-up">up</button>
+        <button class="bet-down">down</button>
+      </div>
+    </div>
+
+    <div class="win">
+      Win $
+      <div class="displayForWin">0</div>
+    </div>
+
+    <div class="Winning_Message">
+      Message
+      <div class="Winning_line">
+        <div id="message"></div>
+      </div>
+    </div>
+
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
