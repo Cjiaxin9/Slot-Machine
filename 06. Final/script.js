@@ -37,7 +37,7 @@ function cashin() {
     document.querySelector(".displayForTotalCredit").innerHTML = newCashIN;
 
     alert("you have cash in $" + cashInValue);
-    //new Audio("cashinsound.mp3").play();
+    new Audio("cashinsound.mp3").play();
   } else {
     cashin();
   }
@@ -59,7 +59,7 @@ function cashOut() {
     document.querySelector(".displayForTotalCredit").innerHTML = newCashOut;
 
     alert("you have cash out $" + cashOutValue);
-    //new Audio("cashoutsound.mp3").play();
+    new Audio("cashoutsound.mp3").play();
   } else {
     cashOut();
   }
@@ -301,7 +301,7 @@ function line_5() {
 
 //sound for winning
 function soundForWin() {
-  //new Audio("sound.wav").play();
+  new Audio("sound.wav").play();
 }
 
 // set the winning line to 0
