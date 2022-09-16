@@ -37,7 +37,7 @@ function cashin() {
     document.querySelector(".displayForTotalCredit").innerHTML = newCashIN;
 
     alert("you have cash in $" + cashInValue);
-    new Audio("cashinsound.mp3").play();
+    //new Audio("cashinsound.mp3").play();
   } else {
     cashin();
   }
@@ -59,7 +59,7 @@ function cashOut() {
     document.querySelector(".displayForTotalCredit").innerHTML = newCashOut;
 
     alert("you have cash out $" + cashOutValue);
-    new Audio("cashoutsound.mp3").play();
+    //new Audio("cashoutsound.mp3").play();
   } else {
     cashOut();
   }
@@ -301,7 +301,7 @@ function line_5() {
 
 //sound for winning
 function soundForWin() {
-  new Audio("sound.wav").play();
+  //new Audio("sound.wav").play();
 }
 
 // set the winning line to 0
@@ -428,7 +428,18 @@ function bonus(e) {
   let bonusWiningValue = document.querySelector(
     ".displayForBonusWin"
   ).innerHTML;
-  console.log(nooftime);
+
+  if (
+    (parseFloat(nooftime) == "1" &&
+      parseFloat(bonusmessage1.innerText) == "0" &&
+      parseFloat(bonusWiningValue) == "0") ||
+    (parseFloat(nooftime) == "1" &&
+      parseFloat(bonusmessage1.innerText) != "0") ||
+    parseFloat(bonusWiningValue) != "0"
+  ) {
+    alert("Press the Spin to play");
+  }
+
   //execute when 1 bonus game
   if (
     parseFloat(bonusmessage1.innerText) == "1" &&
@@ -495,23 +506,6 @@ function bonus(e) {
       nooftime = 1;
     }
   }
-  if (
-    (parseFloat(nooftime) == "1" &&
-      parseFloat(bonusmessage1.innerText) != "1") ||
-    (parseFloat(nooftime) == "1" &&
-      parseFloat(bonusmessage1.innerText) != "0") ||
-    parseFloat(bonusWiningValue) != "0"
-  ) {
-    alert("Press the Spin to play");
-  }
 }
 
 document.querySelector(".bonusSpin").onclick = bonus;
-
-// } else if (
-//   parseFloat(bonusWiningValue) != "0" &&
-//   parseFloat(nooftime) != "0" &&
-//   parseFloat(bonusmessage1.innerText) != "1" ||
-//   nooftime == "1"
-// ) {
-//   alert("Press the Spin to play");
